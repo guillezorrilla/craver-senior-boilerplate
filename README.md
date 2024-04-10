@@ -1,11 +1,16 @@
 # React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Template for initial boilerplate to create app
 
-Currently, two official plugins are available:
+# Folder structure
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+When adding a new component it will be automatically added to `component/ui`
+
+`models` any interface needed
+
+`routes` the main routes for the project
+
+`lib` utility functions
 
 # How to add new componets
 
@@ -20,3 +25,20 @@ To add new components run following command:
 # Icons library
 
 Lucide react: `https://lucide.dev/icons/`
+
+# Technical features needed
+
+- Select items and quantities.
+- Have a navbar with a cart icon that updates the price when item is added to cart
+- Go to checkout button that redirects user to checkout page and have a summary of the order
+- Checkout delivery form
+  - Input delivery address.
+  - Address
+  - Apartment
+  - Suit number
+  - City
+  - Country
+  - Spcecial instructions
+- Select a payment method (e.g., credit card, stored account).
+- Review order details with estimated total.
+  S- ubmit the order and receive confirmation.
