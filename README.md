@@ -39,6 +39,6 @@ Lucide react: `https://lucide.dev/icons/`
   - City
   - Country
   - Spcecial instructions
-- Select a payment method (e.g., credit card, stored account).
-- Review order details with estimated total.
-  S- ubmit the order and receive confirmation.
+  - Select a payment method (e.g., credit card, stored account).
+  - Review order details with estimated total.
+    S- ubmit the order and receive confirmation.
