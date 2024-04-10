@@ -7,10 +7,12 @@ import {
   CardTitle
 } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
+import { ShoppingCartIcon } from 'lucide-react';
 
 const Home = () => {
   return (
-    <div className="container space-y-3">
+    <div className="container space-y-3 p">
+      <ShoppingCartIcon className="w-12 h-12" />
       {data.map((item: IProducts) => {
         return (
           <Card key={item.id} className="p-4">

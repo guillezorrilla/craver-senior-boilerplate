@@ -16,3 +16,7 @@ Shadcn: `https://ui.shadcn.com/docs/components/accordion`
 To add new components run following command:
 
 `npx shadcn-ui@latest add <component name>`
+
+# Icons library
+
+Lucide react: `https://lucide.dev/icons/`
