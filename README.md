@@ -28,17 +28,35 @@ Lucide react: `https://lucide.dev/icons/`
 
 # Technical features needed
 
-- Select items and quantities.
-- Have a navbar with a cart icon that updates the price when item is added to cart
-- Go to checkout button that redirects user to checkout page and have a summary of the order
-- Checkout delivery form
-  - Input delivery address.
-  - Address
-  - Apartment
-  - Suit number
-  - City
-  - Country
-  - Spcecial instructions
-  - Select a payment method (e.g., credit card, stored account).
-  - Review order details with estimated total.
-    S- ubmit the order and receive confirmation.
+# Features
+
+Product Selection:
+
+- Users can browse and select items.
+- Each item has a quantity selector for adding desired amount.
+
+Shopping Cart:
+
+- A persistent shopping cart stores selected items and quantities.
+- Navbar displays a cart icon with an updated total price reflecting cart contents.
+- Users can view the cart details with options to edit quantities or remove items.
+
+Checkout Process:
+
+- A "Go to Checkout" button redirects users to a dedicated checkout page.
+- The checkout page displays a summary of the order details (items, quantities, total price).
+
+Delivery information
+
+- Users can provide their delivery address details including:
+ - Address
+ - City
+ - Country
+ - Special Instructions
+
+Order Review and Confirmation:
+
+- The checkout page displays a review section with confirmed order details and estimated total price.
+- Users can submit the order and receive a confirmation message.
+
+
