@@ -61,7 +61,7 @@ Order Review and Confirmation:
 
 
 
-Additional Considerations
+# Additional Considerations
 
 - Error Handling: Implement proper error handling for invalid inputs, missing data, or 
   checkout failures.
@@ -70,5 +70,5 @@ Additional Considerations
 
 - Accessibility: Ensure the application adheres to accessibility guidelines for users with  
   disabilities.
-  
+
 - Testing: Implement unit and integration tests for components and functionalities.
